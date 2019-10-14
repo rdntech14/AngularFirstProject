@@ -34,7 +34,7 @@ code .
 
 Open dev server
 ```
-ng server --open
+ng serve --open
 ```
 Create new componenet
 ```
