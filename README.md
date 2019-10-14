@@ -46,4 +46,6 @@ Create new componenet
 ```
 ng generate component component/todo
 ng generate component <pathForComponent>/<componentName>
+
+ng g n component/todo
 ```
