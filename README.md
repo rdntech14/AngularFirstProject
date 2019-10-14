@@ -36,6 +36,12 @@ Open dev server
 ```
 ng serve --open
 ```
+Pre-reqiuisite to create component from angular cli
+
+```
+npm install -g @angular/cli
+```
+
 Create new componenet
 ```
 ng generate componenet components/todo
