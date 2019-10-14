@@ -44,6 +44,6 @@ npm install -g @angular/cli
 
 Create new componenet
 ```
-ng generate componenet components/todo
-ng generate componenet <pathForComponent>/<componenetName>
+ng generate component component/todo
+ng generate component <pathForComponent>/<componentName>
 ```
