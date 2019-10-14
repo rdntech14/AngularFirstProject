@@ -49,3 +49,9 @@ ng generate component <pathForComponent>/<componentName>
 
 ng g n component/todo
 ```
+
+Create new Service
+```
+ng generate component <pathForService>/<serviceName>
+ng g s service/todo
+```
