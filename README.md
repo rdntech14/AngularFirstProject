@@ -21,7 +21,7 @@ npm -v
 install angular
 ```
 npm install -g @angular/cli
-ng -v
+ng --version
 ```
 
 create new angular project
