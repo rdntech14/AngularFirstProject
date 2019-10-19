@@ -59,6 +59,3 @@ Create new Service
 ng generate component <pathForService>/<serviceName>
 ng g s service/todo
 ```
-
-
-![Alt text](/controlstate.png?raw=true "Optional Title")
