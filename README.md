@@ -38,6 +38,7 @@ code .
 Open dev server
 ```
 ng serve --open
+ng serve -o
 ```
 Pre-reqiuisite to create component from angular cli
 
