@@ -8,7 +8,10 @@ install angular
 Create new Project
 Download VS code
 
+```
 node -v
+```
+
 ```
 Install npm
 npm install -g npm@latest
