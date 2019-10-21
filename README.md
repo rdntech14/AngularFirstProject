@@ -52,6 +52,12 @@ ng generate component component/todo
 ng generate component <pathForComponent>/<componentName>
 
 ng g n component/todo
+
+ng g n <componentName> -it -is 
+
+Here 
+-it for inline template ( no separate .html file will be created)
+-is for inline style ( mean no separate .css file will be created)
 ```
 
 Create new Service
