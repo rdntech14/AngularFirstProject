@@ -70,4 +70,8 @@ Create new Module
 ```
 ng g m <moduleName>
 ```
+Add Angular Material
+```
+ng add @angular/material
+```
  
