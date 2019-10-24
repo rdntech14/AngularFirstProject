@@ -65,3 +65,9 @@ Create new Service
 ng generate component <pathForService>/<serviceName>
 ng g s service/todo
 ```
+
+Create new Module
+```
+ng g m <moduleName>
+```
+ 
