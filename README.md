@@ -62,7 +62,7 @@ Here
 
 Create new Service
 ```
-ng generate component <pathForService>/<serviceName>
+ng generate service <pathForService>/<serviceName>
 ng g s service/todo
 ```
 
