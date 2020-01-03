@@ -19,10 +19,12 @@ The simple answer is we want to improve the user experience. We want to make our
 **Streams**, sequences of data made available over time. As an example, opposed to Arrays you don’t need all the information to be present in order to start using them.
 
 ### What is Reactive Programming? (Rx Programming)
-s
-Reactive Programming Is Programming With Asynchronous Data Streams
 
-Reactive programming is an asynchronous programming paradigm concerned with data streams and the propagation of change.
+* Reactive Programming Is Programming With Asynchronous Data Streams
+
+* Reactive programming is an asynchronous programming paradigm concerned with data streams and the propagation of change.
+
+* Reactive programming is a programming paradigm that deals with data flows and the propagation of change. It means that when a data flow is emitted by one component, the change will be propagated to other components by reactive programming library. The propagation of change will continue until it reaches the final receiver. The difference between event-driven and reactive programming is that event-driven programming revolves around events and reactive programming revolves around data.
 
 RX = OBSERVABLE + OBSERVER + SCHEDULERS
 
