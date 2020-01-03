@@ -2,18 +2,19 @@
 Commands
 
 Steps 
-Install node js
-Install npm
-install angular
-Create new Project
-Download VS code
+
+* Install node js
+* Install npm
+* install angular
+* Create new Project
+* Download VS code
 
 ```
 node -v
 ```
+Install npm
 
 ```
-Install npm
 npm install -g npm@latest
 npm -v
 ```
@@ -54,11 +55,12 @@ ng generate component <pathForComponent>/<componentName>
 ng g n component/todo
 
 ng g n <componentName> -it -is 
+```
 
 Here 
 -it for inline template ( no separate .html file will be created)
 -is for inline style ( mean no separate .css file will be created)
-```
+
 
 Create new Service
 ```
