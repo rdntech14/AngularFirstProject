@@ -91,3 +91,7 @@ Please code in ```Dockerfile```
 FROM nginx:1.17.1-alpine
 COPY /dist/OnlineOrder ~/Documents/gitProjects/temp
 ```
+
+# Docker Commands
+docker build -t onlineorder .
+docker images
