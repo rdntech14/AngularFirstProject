@@ -77,3 +77,17 @@ Add Angular Material
 ng add @angular/material
 ```
  
+ ## Deployment
+```
+ng build --prod
+```
+
+
+## Dockerize 
+
+Please code in ```Dockerfile```
+
+```
+FROM nginx:1.17.1-alpine
+COPY /dist/OnlineOrder ~/Documents/gitProjects/temp
+```
