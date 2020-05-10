@@ -88,10 +88,21 @@ ng build --prod
 Please code in ```Dockerfile```
 
 ```
-FROM nginx:1.17.1-alpine
-COPY /dist/OnlineOrder ~/Documents/gitProjects/temp
+#stage 1 - download node, install npm, and build project
+FROM node:latest as nodejs
+WORKDIR /app
+COPY . .
+RUN npm install
+RUN npm run build --prod
+
+#stage 2 - run project
+FROM nginx:alpine
+COPY --from=nodejs /app/dist/OnlineOrder /usr/share/nginx/html
 ```
 
 # Docker Commands
+```
 docker build -t onlineorder .
 docker images
+docker run -p 80:80 onlineorder
+```
